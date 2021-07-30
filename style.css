@@ -1,3 +1,113 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(2, 48, 88);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, th {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  color: aliceblue;
+}
+
+td {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+th {
+  font-size: 25px;
+}
+
+h3 {
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background: lightblue;
+}
+
+tr:nth-child(even) {
+  background: lightcyan;
+}
+
+#title-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#color-block {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(38, 69, 82);
+  display: block;
+  top: 90px;
+  z-index: -1;
+}
+
+td p {
+  max-width: 280px;
+  margin: auto;
+}
+
+#blurb {
+  border: 20px double black;
+  padding: 10px;
+  width: 230px;
+}
+
+.table-container {
+  margin: 80px 0;
+}
+
+.music-table, th, td {
+  border: 1px solid #615f5f;
+  padding: 20px;
+  text-align: center;
+} 
+
+.music-table {
+  width:90%;
+  height:90%;
+  border-collapse:collapse;
+  margin: auto;
+}
+
+.music-table th {  
+  background:#0d5b7a;
+  font-variant: small-caps;
+}
+
+#rating {
+  font-size: 30px;
+  color: rgb(250, 250, 7);
+  text-shadow: 0 0 1px black;
+  background-color:#0d5b7a;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+.song {
+  color: black;
+}
+
+img {
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+}
+
+caption {
+  margin: auto;
+  width: 300px;
+  color: white;
+}
+
+caption a {
+  color:#f1ececd0;
 }
